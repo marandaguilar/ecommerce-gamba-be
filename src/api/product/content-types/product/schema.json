@@ -52,6 +52,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "price_mayoreo": {
+      "type": "decimal"
     }
   }
 }

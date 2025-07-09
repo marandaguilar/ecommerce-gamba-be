@@ -469,6 +469,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     price: Schema.Attribute.Decimal;
+    price_mayoreo: Schema.Attribute.Decimal;
     productName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     purchase: Schema.Attribute.Enumeration<['Menudeo', 'Mayoreo']>;
