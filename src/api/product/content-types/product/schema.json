@@ -38,15 +38,10 @@
     "price": {
       "type": "decimal"
     },
-    "purchase": {
-      "type": "enumeration",
-      "enum": [
-        "Menudeo",
-        "Mayoreo"
-      ]
-    },
     "isFeatured": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": false,
+      "default": false
     },
     "category": {
       "type": "relation",
@@ -55,6 +50,10 @@
     },
     "price_mayoreo": {
       "type": "decimal"
+    },
+    "isRebaja": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
