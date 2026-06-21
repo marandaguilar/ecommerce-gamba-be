@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_producto_unidads",
+  "info": {
+    "displayName": "unidad",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "unidad": {
+      "type": "enumeration",
+      "enum": [
+        "pieza",
+        "litro",
+        "kg"
+      ]
+    },
+    "predeterminada": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -54,6 +54,11 @@
     "isRebaja": {
       "type": "boolean",
       "default": false
+    },
+    "unidades": {
+      "type": "component",
+      "repeatable": true,
+      "component": "producto.unidad"
     }
   }
 }
